@@ -1,0 +1,16 @@
+# Ignore the following files and directories
+
+#vscode based settings
+.vscode
+
+# datasets 
+data/BPM
+data/ECG
+data/metadata
+data/raw_audio
+data/transcriptions
+
+# Ignore compiled Python files and results
+speech_processing/__pycache__
+pipeline/__pycache__
+pipeline/results
